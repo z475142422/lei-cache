@@ -1,0 +1,33 @@
+{
+  "name": "lei-cache",
+  "version": "1.0.0",
+  "description": "短小精悍的前端缓存工，防止“侧漏”",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8123"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z475142422/lei-cache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "lei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z475142422/lei-cache/issues"
+  },
+  "homepage": "https://github.com/z475142422/lei-cache#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
